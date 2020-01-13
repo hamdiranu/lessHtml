@@ -1,0 +1,220 @@
+.header .altalogo {
+  padding: 11px;
+}
+.header .option1 {
+  margin: 0;
+}
+.header .option1 .header-nav1 .header-nav__list1 li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header .option1 .header-nav1 .header-nav__list1 li a {
+  font-size: 13px;
+  padding: 0 10px;
+  display: block;
+  color: #19345E;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.header .option1 .header-nav1 .header-nav__list1 li a:hover {
+  color: #F47522;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.header .option1 .header-nav1 .header-nav__list1 li p {
+  font-size: 13px;
+  padding: 0 10px;
+  display: block;
+  color: #F47522;
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  font-weight: bold;
+}
+.header .option1 .header-nav1 .header-nav__list1 li:hover {
+  color: #F47522;
+  text-decoration: none;
+}
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  -webkit-box-shadow: 0px 3px 6px 2px #c1c3c7;
+  -moz-box-shadow: 0px 3px 6px 2px #c1c3c7;
+  box-shadow: 0px 3px 6px 2px #c1c3c7;
+}
+.foot {
+  background-color: #19345E;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.foot .footer1 .media_sosial {
+  padding-left: 70px;
+}
+.foot .footer1 .media_sosial p {
+  color: white;
+  font-size: 14px;
+  padding: 5px 14px;
+  font-family: "SFCompactDisplay";
+}
+.foot .footer1 .media_sosial .sosial {
+  padding: 0px;
+}
+.foot .footer1 .media_sosial .sosial a {
+  padding-left: 15px;
+  padding-bottom: 0;
+}
+.foot .footer1 .copyright {
+  padding: 20px 70px 20px 110px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.foot .footer1 .copyright span {
+  color: white;
+  font-size: 14px;
+  font-family: "SFCompactDisplay";
+}
+.body {
+  padding-top: 100px;
+  background-image: url("../img/bg-img.png");
+  position: relative;
+  background-size: cover;
+  background-position: 0 -44.5px;
+}
+.body .container2 {
+  padding-top: 80px;
+  padding-bottom: 194px;
+}
+.body .container2 .tengah {
+  padding-top: 10px;
+}
+.body .container2 .tengah .foto img {
+  border-radius: 50%;
+}
+.body .container2 .tengah .my_name {
+  padding-left: 70px;
+  color: #19345E;
+}
+.body .container2 .tengah .my_name h1 {
+  font-size: 85px;
+  font-family: 'Roboto', sans-serif;
+}
+.body .container2 .tengah .my_name h3 {
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+}
+.body .container2 .tengah .my_name h4 {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+.body .container2 .tengah .buttonhome {
+  background: #F47522;
+  color: white;
+  border: 2px solid #F47522;
+  width: 150px;
+  height: 43px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  text-align: center;
+  vertical-align: auto;
+  transition: 0.3s;
+  margin-top: 25px;
+  line-height: 38px;
+}
+.body .container2 .tengah .buttonhome:hover {
+  background: white;
+  color: #F47522;
+  border: 2px solid #F47522;
+  text-decoration: none;
+}
+body .about {
+  background: #F4F7FC;
+  position: relative;
+  top: -10px;
+}
+body .about .aboutme1 {
+  padding: 30px 0px 30px 0px;
+  margin-top: 116px;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #19345E;
+  background: #F4F7FC;
+}
+body .about_isi {
+  background: white;
+  position: relative;
+  top: -10px;
+  padding-top: 40px;
+}
+body .about_isi .deskripsi p {
+  padding-left: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #19345E;
+  font-size: 16px;
+  font-weight: normal;
+}
+body .about_isi .education h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #19345E;
+  font-size: 22px;
+  font-weight: bold;
+}
+body .about_isi .education ul {
+  padding-left: 0;
+  margin-left: 15px;
+  color: #19345E;
+}
+body .about_isi .education ul li .tahun {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+body .about_isi .education ul li .grade {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+body .about_isi .education ul li .jurusan {
+  font-size: 16;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+body .about_isi .Table h4 {
+  font-size: 18px;
+  color: #19345E;
+  font-weight: 500;
+}
+body .about_isi .Table table {
+  width: 453px;
+  height: 116px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  border: 1px solid #707070;
+  font-size: 14px;
+  font-family: 'Muli', sans-serif;
+  color: #19345E;
+  padding-left: 18px;
+}
+body .about_isi .Table table td {
+  border: 1px solid #707070;
+  font-size: 14px;
+  font-family: 'Muli', sans-serif;
+  color: #19345E;
+  padding-left: 18px;
+}
+body .about_isi .foto_about .foto img {
+  border-radius: 10px;
+  top: 52px;
+  left: 257px;
+  position: relative;
+}
+body .about_isi .foto_about .dots img {
+  bottom: -5px;
+  left: 214px;
+  position: relative;
+}

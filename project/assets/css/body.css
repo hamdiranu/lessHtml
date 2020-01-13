@@ -1,0 +1,378 @@
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v19/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v19/7Aulp_0qiz-aVz7u3PJLcUMYOFn8kEk30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v19/7Aulp_0qiz-aVz7u3PJLcUMYOFkQl0k30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v19/7Aulp_0qiz-aVz7u3PJLcUMYOFkpl0k30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v19/7Aulp_0qiz-aVz7u3PJLcUMYOFlOl0k30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v19/7Aulp_0qiz-aVz7u3PJLcUMYOFlnl0k30e0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype');
+}
+@font-face {
+  src: url('../font/sf/SFCompactDisplay-Semibold.ttf');
+  font-family: "SFCompactDisplay";
+}
+.body {
+  padding-top: 100px;
+  background-image: url("../img/bg-img.png");
+  position: relative;
+  background-size: cover;
+  background-position: 0 -44.5px;
+}
+.body .container2 {
+  padding-top: 80px;
+  padding-bottom: 194px;
+}
+.body .container2 .tengah {
+  padding-top: 10px;
+}
+.body .container2 .tengah .foto img {
+  border-radius: 50%;
+}
+.body .container2 .tengah .my_name {
+  padding-left: 70px;
+  color: #19345E;
+}
+.body .container2 .tengah .my_name h1 {
+  font-size: 85px;
+  font-family: 'Roboto', sans-serif;
+}
+.body .container2 .tengah .my_name h3 {
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+}
+.body .container2 .tengah .my_name h4 {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+.body .container2 .tengah .buttonhome {
+  background: #F47522;
+  color: white;
+  border: 2px solid #F47522;
+  width: 150px;
+  height: 43px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  text-align: center;
+  vertical-align: auto;
+  transition: 0.3s;
+  margin-top: 25px;
+  line-height: 38px;
+}
+.body .container2 .tengah .buttonhome:hover {
+  background: white;
+  color: #F47522;
+  border: 2px solid #F47522;
+  text-decoration: none;
+}
+body .about {
+  background: #F4F7FC;
+  position: relative;
+  top: -10px;
+}
+body .about .aboutme1 {
+  padding: 30px 0px 30px 0px;
+  margin-top: 116px;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #19345E;
+  background: #F4F7FC;
+}
+body .about_isi {
+  background: white;
+  position: relative;
+  top: -10px;
+  padding-top: 40px;
+}
+body .about_isi .deskripsi p {
+  padding-left: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #19345E;
+  font-size: 16px;
+  font-weight: normal;
+}
+body .about_isi .education h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #19345E;
+  font-size: 22px;
+  font-weight: bold;
+}
+body .about_isi .education ul {
+  padding-left: 0;
+  margin-left: 15px;
+  color: #19345E;
+}
+body .about_isi .education ul li .tahun {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+body .about_isi .education ul li .grade {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+body .about_isi .education ul li .jurusan {
+  font-size: 16;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+body .about_isi .Table h4 {
+  font-size: 18px;
+  color: #19345E;
+  font-weight: 500;
+}
+body .about_isi .Table table {
+  width: 453px;
+  height: 116px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  border: 1px solid #707070;
+  font-size: 14px;
+  font-family: 'Muli', sans-serif;
+  color: #19345E;
+  padding-left: 18px;
+}
+body .about_isi .Table table td {
+  border: 1px solid #707070;
+  font-size: 14px;
+  font-family: 'Muli', sans-serif;
+  color: #19345E;
+  padding-left: 18px;
+}
+body .about_isi .foto_about .foto img {
+  border-radius: 10px;
+  top: 52px;
+  left: 257px;
+  position: relative;
+}
+body .about_isi .foto_about .dots img {
+  bottom: -5px;
+  left: 214px;
+  position: relative;
+}
+body .experience-left .vertical-line {
+  float: right;
+  height: 570px;
+  margin-top: 20px;
+  margin-right: 60px;
+  border: 1px solid grey;
+  opacity: 0.1;
+}
+body .experience-left .bullet1 {
+  background-color: #19345E;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: relative;
+  top: 105px;
+  left: 185px;
+}
+body .experience-left .bullet2 {
+  background-color: #19345E;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: relative;
+  top: 280px;
+  left: 185px;
+}
+body .experience-left .bullet3 {
+  background-color: #19345E;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: relative;
+  top: 460px;
+  left: 185px;
+}
+body .experience-right {
+  padding-top: 60px;
+}
+body .experience-right .experience-article {
+  background: #FFFFFF;
+  border: 1px solid #E2E2E2;
+  margin-right: 10%;
+  border-radius: 10px;
+  color: #19345E;
+  margin-bottom: 45px;
+  transition: all 1s ease;
+}
+body .experience-right .experience-article .h4-article {
+  font-size: 17px;
+  font-family: Muli;
+  margin-top: 10px;
+  color: #19345E;
+  font-weight: 700;
+}
+body .experience-right .experience-article .date-article {
+  font-size: 15px;
+  color: #ACACAC;
+  font-family: Muli;
+  padding-bottom: 2px;
+}
+body .experience-right .experience-article .line {
+  border: solid 0.1px grey;
+  opacity: 0.1;
+  margin-bottom: 20px;
+}
+body .experience-right .experience-article .ul-article {
+  font-size: 14px;
+  font-family: Roboto;
+  padding-bottom: 12px;
+  color: #19345E;
+}
+body .experience-right .experience-article .article-2 {
+  font-size: 14px;
+  font-family: Roboto;
+  padding-bottom: 12px;
+  color: #19345E;
+}
+body .experience-right .experience-article:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: -5px;
+  transition: all 1s ease;
+}
+#contact .contact-left {
+  background: #19345E;
+  border: 1px solid #707070;
+  padding: 0;
+}
+#contact .contact-left .alterra-logo {
+  width: 48.5%;
+  position: absolute;
+  top: 41.9%;
+  left: 25.8%;
+  z-index: 3;
+}
+#contact .contact-left .back-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0.4;
+  z-index: 1;
+  object-fit: contain;
+}
+#contact .contact-form {
+  font-family: Muli;
+  color: #19345E;
+}
+#contact .contact-form .contact-us {
+  font-size: 1.6em;
+  width: 100%;
+  padding: 4.17% 25%;
+}
+#contact .contact-form #contact-form {
+  width: 100%;
+}
+#contact .contact-form #contact-form .input {
+  padding-left: 25%;
+  font-size: 1.4em;
+}
+#contact .contact-form #contact-form .input #Full-Name {
+  width: 70%;
+}
+#contact .contact-form #contact-form .input #email {
+  width: 70%;
+}
+#contact .contact-form #contact-form .input #Phone-Number {
+  width: 70%;
+}
+#contact .contact-form #contact-form .input #Role {
+  width: 70%;
+}
+#contact .contact-form #contact-form #message {
+  width: 70%;
+  margin-bottom: -20px;
+}
+#contact .contact-form #contact-form .button_contact {
+  width: 25%;
+  margin-bottom: 5%;
+}
+#contact .contact-form #contact-form .button_contact .buttonhome {
+  background: #F47522;
+  color: white;
+  border: 2px solid #F47522;
+  width: 150px;
+  height: 43px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  text-align: center;
+  vertical-align: auto;
+  transition: 0.3s;
+  margin-top: 25px;
+  line-height: 38px;
+}
+#contact .contact-form #contact-form .button_contact .buttonhome:hover {
+  background: white;
+  color: #F47522;
+  border: 2px solid #F47522;
+  text-decoration: none;
+}

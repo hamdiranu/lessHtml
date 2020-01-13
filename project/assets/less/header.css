@@ -1,0 +1,56 @@
+.header .altalogo {
+  padding: 11px;
+}
+.header .option1 {
+  margin: 0;
+}
+.header .option1 .header-nav1 {
+  display: table;
+  margin-left: auto;
+}
+.header .option1 .header-nav1 .header-nav__list1 {
+  display: inline-block;
+  margin: 0px;
+}
+.header .option1 .header-nav1 .header-nav__list1 li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header .option1 .header-nav1 .header-nav__list1 li a {
+  font-size: 13px;
+  padding: 0 10px;
+  display: block;
+  color: #19345E;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.header .option1 .header-nav1 .header-nav__list1 li a:hover {
+  color: #F47522;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.header .option1 .header-nav1 .header-nav__list1 li p {
+  font-size: 13px;
+  padding: 0 10px;
+  display: block;
+  color: #F47522;
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  font-weight: bold;
+}
+.header .option1 .header-nav1 .header-nav__list1 li:hover {
+  color: #F47522;
+  text-decoration: none;
+}
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  -webkit-box-shadow: 0px 3px 6px 2px #c1c3c7;
+  -moz-box-shadow: 0px 3px 6px 2px #c1c3c7;
+  box-shadow: 0px 3px 6px 2px #c1c3c7;
+}
